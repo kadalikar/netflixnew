@@ -1,0 +1,299 @@
+*
+{
+    margin: 0%;
+    
+    
+
+}
+ html{
+    background-color:black;
+ }
+     
+ 
+     
+body, a {
+   font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+   font-weight: 400;
+}
+
+.bg-img
+{
+  width: 100%;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+  position: relative;
+}
+.container {
+    position: absolute;
+    margin: 20px;
+    
+  }
+  
+ 
+ 
+#netflix svg{
+    padding-top: .5rem;
+    height: 45px;
+    width: 167px;
+    fill: red;
+}
+#main-nav
+{
+    padding-top: 20px;
+}
+.photo img
+{
+    width: 100%;
+    height: 100%; 
+   background: linear-gradient(red, yellow);
+   
+   
+}
+ 
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-weight:bold;
+    color: ivory;
+  
+    max-width: 600px;  
+    
+     margin: 0 auto;
+    font-size: 3.125rem;  
+      line-height: 1.1;  
+    margin-bottom: .5rem;
+    padding-left: 80px;
+    text-align-last: center;
+  }
+  
+  .centeredd {
+    position: absolute;
+    top: 62%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: ivory;
+    font-size: 1.125rem; 
+    margin: 1rem auto; 
+    max-width: 640px; 
+     margin: 0 auto; 
+     font-size: 1.625rem; 
+    font-weight: 400;
+    padding-left: 200px;
+  }
+  .ready
+  {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: ivory;
+    font-size: 1.2rem; 
+    margin: 1rem auto; 
+    max-width: 640px; 
+     margin: 0 auto; 
+     font-size: 1.2rem; 
+    font-weight: 200;
+    
+    
+  }
+  .email
+  {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: ivory;
+    font-size: 1.2rem; 
+    margin: 1rem auto; 
+    max-width: 640px; 
+     margin: 0 auto; 
+     font-size: 1.2rem; 
+    font-weight: 200;
+   
+  }
+  .enjoy
+  {
+      background: black;
+  }
+  .textp
+  {
+      color: white;
+     padding-top: 150px;
+     padding-left: 70px;
+     
+  }
+  .tv
+  {
+    font-size: 3.125rem;
+    line-height: 1.4;
+    font: bold;
+    font-weight: 700;
+  }
+  .smart
+  { 
+      font-size: 1.625rem;
+    font-weight: 400;
+  }
+  .textq
+  {
+      color: white;
+     padding-top: 150px;
+     padding-left: 40px;
+     
+  }
+  .offline
+  {
+      font-size: 50px;
+  }
+  .save
+  {
+      font-size: 25px;
+  }
+
+
+.silde 
+{
+    background:black;
+}
+ #serive  {
+     font-size: 25px;
+ }
+  .accordion
+  {
+      max-width:1000px;
+      align-items: center;
+      padding-left: 220px;
+      
+    
+  }
+  .accordion .contentBx
+  {
+      position: relative;
+      margin: 10px 20px;
+      font-weight: 500;
+       
+  }
+  
+  .accordion .contentBx .label
+  {
+      position: relative;
+      padding: 25px;
+      background:#303030;
+      color: white;
+      cursor: pointer;
+  }
+  .accordion .contentBx .label::before
+  {
+      content: '+';
+      position:absolute;
+      top: 20%;
+      right: 20px;
+      transform: translate(-50%);
+      font-size: 1.5rem;
+  }
+  .accordion .contentBx.active .label::before
+  {
+    content: '-';
+  }
+  .accordion .contentBx .content
+  {
+      position: relative;
+      
+      background: #303030;
+      color: white;
+      height: 2px;
+      overflow: hidden;
+      transition: 0.5s;
+      overflow-y: hidden;
+     
+
+  }
+  .accordion .contentBx.active .content
+  {
+    height: 150px;
+    padding: 10px;
+  }
+  .ready1
+  {
+    position: absolute;
+    top: 490%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem; 
+    margin: 1rem auto; 
+    max-width: 640px; 
+     margin: 0 auto; 
+     font-size: 1.2rem; 
+    font-weight: 400;
+  }
+  .email1
+  {
+    position: absolute;
+    top: 500%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: ivory;
+    font-size: 1.2rem; 
+    margin: 1rem auto; 
+    max-width: 640px; 
+     margin: 0 auto; 
+     font-size: 1.2rem; 
+    font-weight: 200;
+    
+  }
+  
+
+
+   /* footer */
+  
+ 
+  
+   .footer-pad a
+
+   {
+     color: rgb(136, 129, 129);
+     font-size: 13px;
+     align-items: center;
+   }
+     .footer-middle {
+     
+       color: rgb(15, 14, 14);
+       font-size: 15px;
+       font-weight: 200;
+       } 
+   
+   
+    
+   #library1 li
+   {
+     padding-left: 130px;
+     padding-bottom: 8px;
+     
+   }
+   #library2 li
+   {
+      padding-left: 40px;
+     padding-bottom: 8px;
+   }
+ 
+   #library3 li 
+   {
+     
+    padding-left: 40px;
+     padding-bottom: 8px;
+   }
+   
+   #library4  li
+   { 
+    padding-left: 40px;
+     padding-bottom: 8px;
+      
+   }  
+   
